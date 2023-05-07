@@ -2,14 +2,6 @@
 
 A Rails application for tracking TV shows and series, ShowTrack retrieves its data from [TheTVDB.com](https://www.thetvdb.com). The app allows users to explore TV shows and view detailed information on individual shows.
 
-## Screenshots
-
-### All Shows
-[![Screenshot - Explore View](docs/screenshot_explore_thumb.png)](docs/screenshot_explore.png)
-
-### Show Details
-[![Screenshot - Show View](docs/screenshot_show_thumb.png)](docs/screenshot_show.png)
-
 ## Configuration
 
 The following environment variables are available:
