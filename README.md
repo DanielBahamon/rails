@@ -1,17 +1,13 @@
-# Whatchy
+# ShowTrack
 
-Rails app to track tv shows / series.
-
-It gets it's data from [TheTVDB.com](https://www.thetvdb.com).
+A Rails application for tracking TV shows and series, ShowTrack retrieves its data from [TheTVDB.com](https://www.thetvdb.com). The app allows users to explore TV shows and view detailed information on individual shows.
 
 ## Screenshots
 
-All Shows
-
+### All Shows
 [![Screenshot - Explore View](docs/screenshot_explore_thumb.png)](docs/screenshot_explore.png)
 
-Show Details
-
+### Show Details
 [![Screenshot - Show View](docs/screenshot_show_thumb.png)](docs/screenshot_show.png)
 
 ## Configuration
@@ -39,10 +35,11 @@ By default the application is designed to run at [Heroku](https://www.heroku.com
 
 In addition to the default `web` process defined in the `Procfile` a cronjob is required to be defined in the [Heroku Scheduler](https://devcenter.heroku.com/articles/scheduler):
 
-```
-rake crons:daily
-```
 
-## Licence
+
+rake crons:daily
+
+
+## License
 
 The application is available as open source under the terms of the MIT License.
